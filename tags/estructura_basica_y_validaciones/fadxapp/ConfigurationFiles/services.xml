@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<services>
+	<service name="ACCESS_RESOURCES_SERVICE" class="fadxapp.es.jagafo.servicelayer.services.accessresourcesservice.AccessResourcesService"/>	
+	<service name="LOG_SERVICE" class="fadxapp.es.jagafo.servicelayer.services.logservice.LogService"/>
+	<!-- 
+	<service name="CACHE_SERVICE" class="fadxapp.es.jagafo.servicelayer.services.cacheservice.CacheService"/>
+	 -->
+</services>

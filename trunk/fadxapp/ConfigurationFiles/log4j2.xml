@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<configuration> 
+  <appenders> 
+	<rollingFile name="FileLogger" fileName="FADX_APP.log" filePattern="" append="false">
+		<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    	<SizeBasedTriggeringPolicy size="20 MB" />
+    	<DefaultRolloverStrategy max="20"/>
+    </rollingFile>        
+    <Console name="Console" target="SYSTEM_OUT"> 
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/> 
+    </Console> 
+  </appenders> 
+  <loggers>     
+  	<logger name="org.apache.jcs" additivity="false">
+	  <level value="ERROR" />
+	  <appender-ref ref="Console"/>	  
+	</logger>
+    <root level="DEBUG">
+    	<appenderRef ref="Console" />
+        <appenderRef ref="FileLogger"/>
+    </root>
+  </loggers>
+</configuration>

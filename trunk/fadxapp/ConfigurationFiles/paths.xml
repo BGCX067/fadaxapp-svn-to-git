@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<paths>
+	<pathConfigFiles tipo="fich" path="/ConfigurationFiles/meta/"/>
+
+	<documentfactory>fadxapp.es.jagafo.services.xmlservice.core.DocumentFactoryRepository</documentfactory>
+	
+</paths>

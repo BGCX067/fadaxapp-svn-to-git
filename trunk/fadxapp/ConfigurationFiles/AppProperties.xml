@@ -1,0 +1,10 @@
+<!-- Este fichero contiene la definicion de los campos a configurar en la vista de propiedades
+	Una propiedad esta definida por:
+		- label:			Información a mostrar en la ventana de propiedades.
+		- propertyKey:		Clave que identifica de manera unica la propiedad en la aplicacion. Estara dada de alta en IPropertiesKeys.
+		- debugModeValue:	Valor opcional que tendra si la aplicacion se esta ejecutando en modo debug.
+		- type:				Tipo asociado a la propiedad, segun el tipo se mostrar un editor asociado en el editor.
+ -->
+<propiedades>
+
+</propiedades>
